@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "yomeva/open-ai-bundle": [
+            "0.2.2"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/AlfredWallace/SymfonyRecipes",
+        "origin_template": "{package}:{version}@github.com/AlfredWallace/SymfonyRecipes:main",
+        "recipe_template": "https://api.github.com/repos/AlfredWallace/SymfonyRecipes/contents/{package_dotted}.{version}.json"
+    }
+}
