@@ -1,0 +1,24 @@
+{
+    "manifests": {
+        "yomeva/open-ai-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Yomeva\\OpenAiBundle\\YomevaOpenAiBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": {
+                "config/packages/yomeva_open_ai.yaml": {
+                    "contents": [
+                        "yomeva_open_ai:",
+                        "    api_key: 'dummy-key'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "ce741b6f9fe869e63353174241a88a59bd4ee714"
+        }
+    }
+}
